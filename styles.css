@@ -1,0 +1,51 @@
+body {
+    padding:0;
+    margin:0;
+    overflow: hidden;
+    background-image: url(beautiful-landscape.jpg);
+    background-size: 1920px 1000px;
+    letter-spacing: 0.05rem;
+   
+}
+.content {
+    display: flex;
+    width:100%;
+    height:100vh;
+   
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.getTemp {
+    height:25px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 3px 5px rgb(0, 0, 0);
+    border-top-right-radius:7px;
+    border-bottom-right-radius: 7px;
+    cursor: pointer;
+
+}
+input {
+    height: 20px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border:1px solid black;
+}
+#output {
+    width:200px;
+    height:32px;
+    position: relative;
+
+    text-align: center;
+    vertical-align:middle;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gap-item1{
+    height:100px;
+}
